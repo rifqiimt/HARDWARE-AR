@@ -1,10 +1,10 @@
-🚀 Hardware Quest AR
+**🚀 Hardware Quest AR**
 
 Hardware Quest AR adalah aplikasi Augmented Reality (AR) interaktif edukasional yang dirancang untuk mensimulasikan dan memvisualisasikan komponen perangkat keras (hardware) komputer di dunia nyata. Aplikasi ini memungkinkan pengguna untuk belajar struktur, varian, dan letak komponen PC tanpa harus membongkar unit komputer fisik.
+Dikembangkan sebagai proyek Tugas Akhir / Skripsi di Program Studi Teknik Komputer, Universitas Syiah Kuala. <br/>
+<br/>
 
-Dikembangkan sebagai proyek Tugas Akhir / Skripsi di Program Studi Teknik Komputer, Universitas Syiah Kuala.
-
-✨ Fitur Utama
+**✨ Fitur Utama**
 
 📐 Markerless AR Deployment: Deteksi permukaan (Ground Plane Tracking) yang memungkinkan objek 3D seperti Motherboard atau Hard Disk diletakkan dengan ukuran skala asli (1:1) di atas meja pengguna.
 
@@ -14,9 +14,10 @@ Dikembangkan sebagai proyek Tugas Akhir / Skripsi di Program Studi Teknik Komput
 
 🔄 Variant Switcher: Fitur untuk membandingkan wujud dan ukuran antar tipe komponen secara real-time (Contoh: Motherboard ATX vs Mini-ITX, SSD M.2 NVMe vs SATA 2.5").
 
-📝 Evaluation Quiz: Modul ujian pilihan ganda berbasis batas waktu (time-limited) untuk menguji tingkat pemahaman pengguna, dilengkapi dengan sistem penghargaan berupa Experience Points (XP).
+📝 Evaluation Quiz: Modul ujian pilihan ganda berbasis batas waktu (time-limited) untuk menguji tingkat pemahaman pengguna, dilengkapi dengan sistem penghargaan berupa Experience Points (XP).<br/>
+<br/>
 
-💻 Teknologi & Persyaratan Sistem
+**💻 Teknologi & Persyaratan Sistem**
 
 Proyek ini dibangun menggunakan:
 
@@ -26,9 +27,10 @@ AR Framework: Vuforia Engine AR / AR Foundation
 
 Bahasa Pemrograman: C# (.NET)
 
-Target Platform: iOS (iPhone/iPad) & Android
+Target Platform: iOS (iPhone/iPad) & Android<br/>
+<br/>
 
-📥 Panduan Instalasi & Build
+**📥 Panduan Instalasi & Build**
 
 1. Clone Repository
 
@@ -59,9 +61,10 @@ Buka file .xcodeproj atau .xcworkspace yang dihasilkan menggunakan aplikasi Xcod
 
 Di tab Signing & Capabilities pada Xcode, pastikan Anda telah memilih akun Apple ID (Development Team) Anda.
 
-Hubungkan iPhone/iPad Anda dan tekan tombol Play (▶️) di Xcode untuk mengkompilasi dan menginstal aplikasi ke perangkat keras.
+Hubungkan iPhone/iPad Anda dan tekan tombol Play (▶️) di Xcode untuk mengkompilasi dan menginstal aplikasi ke perangkat keras.<br/>
+<br/>
 
-📁 Struktur Direktori Penting
+**📁 Struktur Direktori Penting**
 
 Assets/Scenes/: Berisi scene utama dari aplikasi (seperti Menu Utama, Scene Modul, dan Scene AR).
 
@@ -75,9 +78,10 @@ SlidingPanel.cs: Logika animasi mulus (lerp) untuk memunculkan panel antarmuka U
 
 DebugSpawner.cs: Alat (tool) khusus developer untuk memunculkan AR secara paksa saat pengetesan langsung di dalam Unity Editor.
 
-Assets/textures/: Tempat material dan tekstur (gambar pelapis) untuk memperindah model 3D komponen.
+Assets/textures/: Tempat material dan tekstur (gambar pelapis) untuk memperindah model 3D komponen.<br/>
+<br/>
 
-👨‍💻 Pengembang
+**👨‍💻 Pengembang**
 
 Rifqi Mubarak
 
