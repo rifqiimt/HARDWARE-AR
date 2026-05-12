@@ -32,36 +32,12 @@ Target Platform: iOS (iPhone/iPad) & Android<br/>
 
 **📥 Panduan Instalasi & Build**
 
-1. Clone Repository
-
-Pastikan Git sudah terinstal di komputer Anda. Buka terminal dan jalankan perintah berikut:
-
-git clone [https://github.com/rifqiimt/HARDWARE-AR.git](https://github.com/rifqiimt/HARDWARE-AR.git)
+1. Clone Repository<br/>Pastikan Git sudah terinstal di komputer Anda. Buka terminal dan jalankan perintah berikut:<br/>git clone [https://github.com/rifqiimt/HARDWARE-AR.git](https://github.com/rifqiimt/HARDWARE-AR.git)
 
 
-2. Membuka di Unity
+2. Membuka di Unity<br/>Buka Unity Hub.<br/>Klik tombol Add dan pilih folder repositori yang baru saja di-clone.<br/>Buka proyek tersebut (Pastikan Anda menggunakan versi Unity Editor yang sesuai).<br/>Catatan: Karena proyek ini tidak menyertakan file tembolok raksasa (telah diabaikan melalui .gitignore), proses impor awal di Unity mungkin memakan waktu beberapa menit.<br/>
 
-Buka Unity Hub.
-
-Klik tombol Add dan pilih folder repositori yang baru saja di-clone.
-
-Buka proyek tersebut (Pastikan Anda menggunakan versi Unity Editor yang sesuai).
-
-Catatan: Karena proyek ini tidak menyertakan file tembolok raksasa (telah diabaikan melalui .gitignore), proses impor awal di Unity mungkin memakan waktu beberapa menit.
-
-3. Build ke iOS (Menggunakan Xcode)
-
-Di Unity, buka menu File > Build Settings.
-
-Pilih platform iOS dan klik Switch Platform.
-
-Klik Build dan pilih folder tujuan (biasanya dinamai app atau Build).
-
-Buka file .xcodeproj atau .xcworkspace yang dihasilkan menggunakan aplikasi Xcode di Mac.
-
-Di tab Signing & Capabilities pada Xcode, pastikan Anda telah memilih akun Apple ID (Development Team) Anda.
-
-Hubungkan iPhone/iPad Anda dan tekan tombol Play (▶️) di Xcode untuk mengkompilasi dan menginstal aplikasi ke perangkat keras.<br/>
+3. Build ke iOS (Menggunakan Xcode)<br/>Di Unity, buka menu File > Build Settings.<br/>Pilih platform iOS dan klik Switch Platform.<br/>Klik Build dan pilih folder tujuan (biasanya dinamai app atau Build).<br/>Buka file .xcodeproj atau .xcworkspace yang dihasilkan menggunakan aplikasi Xcode di Mac.<br/>Di tab Signing & Capabilities pada Xcode, pastikan Anda telah memilih akun Apple ID (Development Team) Anda.<br/>Hubungkan iPhone/iPad Anda dan tekan tombol Play (▶️) di Xcode untuk mengkompilasi dan menginstal aplikasi ke perangkat keras.<br/>
 <br/>
 
 **📁 Struktur Direktori Penting**
