@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: soal
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: Assembly-CSharp::QuizDataScriptable
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: Assembly-CSharp::QuizDataScriptable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: categoryName
+    value: Soal
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.size
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[0].questionInfo
+    value: siapa pemain ini?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[0].questionType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[0].questionImage
+    value: 
+    objectReference: {fileID: 21300000, guid: b4cb6294c446e4a4290b63a994d0ad57, type: 3}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[0].options.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[0].options.Array.data[0]'
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[0].options.Array.data[1]'
+    value: messi
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[0].options.Array.data[2]'
+    value: neymar
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[0].options.Array.data[3]'
+    value: pogba
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[0].correctAns
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[1].questionInfo
+    value: goat bola?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[1].questionType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[1].questionImage
+    value: 
+    objectReference: {fileID: 21300000, guid: c0bb50585e74c4e42afe23172c92e36f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[1].options.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[1].options.Array.data[0]'
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[1].options.Array.data[1]'
+    value: messi
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[1].options.Array.data[2]'
+    value: neymar
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[1].options.Array.data[3]'
+    value: pogba
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[1].correctAns
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[2].questionInfo
+    value: siapa pemain ini?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[2].questionType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[2].questionImage
+    value: 
+    objectReference: {fileID: 21300000, guid: c0bb50585e74c4e42afe23172c92e36f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[2].options.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[2].options.Array.data[0]'
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[2].options.Array.data[1]'
+    value: messi
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[2].options.Array.data[2]'
+    value: neymar
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[2].options.Array.data[3]'
+    value: pogba
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[2].correctAns
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[3].questionInfo
+    value: goat bola?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[3].questionType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[3].questionImage
+    value: 
+    objectReference: {fileID: 21300000, guid: c0bb50585e74c4e42afe23172c92e36f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[3].options.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[3].options.Array.data[0]'
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[3].options.Array.data[1]'
+    value: messi
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[3].options.Array.data[2]'
+    value: neymar
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[3].options.Array.data[3]'
+    value: pogba
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[3].correctAns
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[4].questionInfo
+    value: goat bola?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[4].questionType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[4].questionImage
+    value: 
+    objectReference: {fileID: 21300000, guid: c0bb50585e74c4e42afe23172c92e36f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[4].options.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[4].options.Array.data[0]'
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[4].options.Array.data[1]'
+    value: messi
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[4].options.Array.data[2]'
+    value: neymar
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[4].options.Array.data[3]'
+    value: pogba
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[4].correctAns
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[5].questionInfo
+    value: goat bola?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[5].questionType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[5].questionImage
+    value: 
+    objectReference: {fileID: 21300000, guid: c0bb50585e74c4e42afe23172c92e36f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[5].options.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[5].options.Array.data[0]'
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[5].options.Array.data[1]'
+    value: messi
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[5].options.Array.data[2]'
+    value: neymar
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[5].options.Array.data[3]'
+    value: pogba
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[5].correctAns
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[6].questionInfo
+    value: siapa pemain ini?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[6].questionType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[6].questionImage
+    value: 
+    objectReference: {fileID: 21300000, guid: c0bb50585e74c4e42afe23172c92e36f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[6].options.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[6].options.Array.data[0]'
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[6].options.Array.data[1]'
+    value: messi
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[6].options.Array.data[2]'
+    value: neymar
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[6].options.Array.data[3]'
+    value: pogba
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[6].correctAns
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[7].questionInfo
+    value: goat bola?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[7].questionType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[7].questionImage
+    value: 
+    objectReference: {fileID: 21300000, guid: c0bb50585e74c4e42afe23172c92e36f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[7].options.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[7].options.Array.data[0]'
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[7].options.Array.data[1]'
+    value: messi
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[7].options.Array.data[2]'
+    value: neymar
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[7].options.Array.data[3]'
+    value: pogba
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[7].correctAns
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[8].questionInfo
+    value: siapa pemain ini?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[8].questionType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[8].questionImage
+    value: 
+    objectReference: {fileID: 21300000, guid: c0bb50585e74c4e42afe23172c92e36f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[8].options.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[8].options.Array.data[0]'
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[8].options.Array.data[1]'
+    value: messi
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[8].options.Array.data[2]'
+    value: neymar
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[8].options.Array.data[3]'
+    value: pogba
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[8].correctAns
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[9].questionInfo
+    value: goat bola?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[9].questionType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[9].questionImage
+    value: 
+    objectReference: {fileID: 21300000, guid: c0bb50585e74c4e42afe23172c92e36f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[9].options.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[9].options.Array.data[0]'
+    value: ronaldo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[9].options.Array.data[1]'
+    value: messi
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[9].options.Array.data[2]'
+    value: neymar
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: 'questions.Array.data[9].options.Array.data[3]'
+    value: pogba
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questions.Array.data[9].correctAns
+    value: ronaldo
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
+  m_CoupledType:
+    m_NativeTypeID: 0
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: 
+  m_CoupledProperties: []

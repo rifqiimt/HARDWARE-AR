@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/0/Scenes/Utama.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/0/Scenes/Kategori.unity
+    guid: be70779a066bf104fbbe7c810620d178
+  - enabled: 0
+    path: Assets/0/Scenes/Cara Main.unity
+    guid: d08e038be9ffcb040a8e0f4f646d66b2
+  - enabled: 0
+    path: Assets/0/Scenes/Kuis11.unity
+    guid: 8ac4796844ddb444b9cf7c0d7952ecf8
+  - enabled: 0
+    path: Assets/0/Scenes/Penjelasan SSD mSATA 2242.unity
+    guid: 1eaad7bd801668e45b9b938d961cf613
+  - enabled: 0
+    path: Assets/0/Scenes/RAM.unity
+    guid: b534ed583c1de804a83bd9128dfa33ae
+  - enabled: 0
+    path: Assets/0/Scenes/Penjelasan SSD mSATA.unity
+    guid: 076ceded5c8e4d945a5d701a2d508dea
+  - enabled: 0
+    path: Assets/0/Scenes/Kategori SSD.unity
+    guid: 4fbc1cc43030cf242928916f804b9d1f
+  - enabled: 0
+    path: Assets/0/Scenes/Kategori SSD mSATA.unity
+    guid: e00420d909e78d546a5672562e57e949
+  - enabled: 0
+    path: Assets/0/Scenes/Penjelasan SSD mSATA 2280.unity
+    guid: 4b8d693defa0f9b4bb454023c447e3fb
+  - enabled: 0
+    path: Assets/0/Scenes/MSATA 2280.unity
+    guid: 2dca9b401ad50444fb6ef06a6b8e776f
+  - enabled: 0
+    path: Assets/0/Scenes/MSATA 2242.unity
+    guid: 4ff256f5b7f186f4697a6e622527b2ba
+  - enabled: 0
+    path: Assets/0/Assett/Home/Home.unity
+    guid: 75c50da43f6c71a4b96ba9b94930fab1
+  - enabled: 0
+    path: Assets/0/Assett/Tentang/Tentang.unity
+    guid: d9851dd9d2be8264d8d40fc363dd2e48
+  - enabled: 0
+    path: Assets/0/Assett/Panduan/Panduan.unity
+    guid: 5b64cae0f179faa49932682b374793b0
+  - enabled: 0
+    path: Assets/0/Assett/Materi/Materi.unity
+    guid: 5faace587bd5eca409be90594ebe6eec
+  - enabled: 0
+    path: Assets/0/Assett/Materi/Motherboard/ATX.unity
+    guid: 33b54480011540d49ad97f0312c24139
+  - enabled: 0
+    path: Assets/0/Assett/Materi/Motherboard/MicroATX.unity
+    guid: dedbdd2adf5ca684ca8df5a454d3657f
+  - enabled: 0
+    path: Assets/0/Assett/Materi/CPU/LGA.unity
+    guid: 75f2dd5cc748747a59645979c66a859d
+  - enabled: 0
+    path: Assets/0/Assett/Baru/Persistent.unity
+    guid: 74b06c5e2a6410a4fbc85146c6f3b427
+  - enabled: 0
+    path: Assets/0/Assett/Baru/Game.unity
+    guid: 1fc5dd2e38e517a4e865e0cbc8cce240
+  - enabled: 0
+    path: Assets/0/Assett/Baru/MenuScreen.unity
+    guid: ab2732b10a6c2ef4687d579eedf22b46
+  - enabled: 0
+    path: Assets/0/Assett/Baru/SampleScene.unity
+    guid: 420c2a378cbca7f4cb364558728076b4
+  - enabled: 0
+    path: Assets/Scenes/kuis/Game.unity
+    guid: da602927faed24dcf85113fe49d63ebb
+  - enabled: 0
+    path: Assets/Scenes/kuis/Persistent.unity
+    guid: ec6f4666b68504c8492415616033b732
+  - enabled: 0
+    path: Assets/Scenes/kuis/MenuScreen.unity
+    guid: 9b5bdf8e714164683b8cff758d494798
+  - enabled: 0
+    path: Assets/Scenes/kuis/SampleScene.unity
+    guid: dfeb4903d18444821bb321e3641291bf
+  - enabled: 0
+    path: Assets/Quiz/GameScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/home.unity
+    guid: 6aa8e8cd3521b4ec9bad0462d9093235
+  - enabled: 1
+    path: Assets/Scenes/panduan.unity
+    guid: 8e114ec69f2b443bc8d57a49e09a90a1
+  - enabled: 1
+    path: Assets/Scenes/quiz.unity
+    guid: 598dbce3e52cd469785dde1de8ccc791
+  - enabled: 1
+    path: Assets/Scenes/tentang.unity
+    guid: bd6b4697fab674c3e93dd2ea4783b33c
+  - enabled: 1
+    path: Assets/Scenes/module.unity
+    guid: e11fd84c04fad44e0b6a3761f2cb0c4e
+  - enabled: 1
+    path: Assets/Scenes/SceneAR.unity
+    guid: 918744e32aced4149a1a48ae20e789a9
+  m_configObjects:
+    EasyAR.Settings: {fileID: 11400000, guid: e6c4b02dd946c244bb3a1f27ad6999b1, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 7e0d2f10def7d4f479fca8869a16cdf7, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: cdcdea7fef2a15a46b92891e3db75b9e, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: ab10922fb78e57c42b23ba7c75d26899, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: cb5ad8622d2064c44a0cdd432f0d9024, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0e3b74fc3ee6c634e8fe62af52063ca8, type: 2}
+  m_UseUCBPForAssetBundles: 0
